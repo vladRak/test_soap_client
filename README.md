@@ -7,7 +7,8 @@
         If you can expand this information with the capital, country code, currency code - only a plus.
 
 ### Links
-   - **Client code example** [here](https://github.com/vladRak/test_soap_client/blob/master/src/main/java/com/test/soap/client/ClientCodeExample.java "Client implementation").
+   - **Generated Excel file example** [here](https://github.com/vladRak/test_soap_client/blob/master/src/main/resources/file/country_info.xlsx?raw=true "Generated Excel file example").
+   - **Client code example** [here](https://github.com/vladRak/test_soap_client/blob/master/src/main/java/com/test/soap/client/ClientCodeExample.java "Client implementation example").
    - Country info service SOAP interface (generated) [here](https://github.com/vladRak/test_soap_client/blob/master/src/main/java/org/oorsprong/websamples/CountryInfoServiceSoapType.java "Country info service SOAP interface").
    - Web service client (generated) [here](https://github.com/vladRak/test_soap_client/blob/master/src/main/java/org/oorsprong/websamples/CountryInfoService.java "WebServiceClient").
 
