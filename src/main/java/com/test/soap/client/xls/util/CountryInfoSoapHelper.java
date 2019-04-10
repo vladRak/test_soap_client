@@ -10,16 +10,32 @@ import javax.xml.ws.WebServiceException;
 import java.util.Collections;
 import java.util.List;
 
+
+/**
+ * CountryInfoSoapHelper class used for simplification getting data from SOAP service
+ *
+ * @author vladRak
+ * @see CountryInfoService,CountryInfoServiceSoapType
+ */
 public class CountryInfoSoapHelper {
 
     private static final Logger logger = LoggerFactory.getLogger(CountryInfoSoapHelper.class);
 
     private CountryInfoService countryInfoService;
 
+    /**
+     * Default constructor.
+     */
     public CountryInfoSoapHelper() {
         this.countryInfoService = new CountryInfoService();
     }
 
+    /**
+     * Constructor for specify service
+     *
+     * @author vladRak
+     * @see CountryInfoService
+     */
     public CountryInfoSoapHelper(CountryInfoService countryInfoService) {
         this.countryInfoService = countryInfoService;
     }
@@ -28,6 +44,14 @@ public class CountryInfoSoapHelper {
         return countryInfoService;
     }
 
+
+    /**
+     * Method return an List of TCountryInfo
+     *
+     * @return an List of TCountryInfo objects
+     * @author vladRak
+     * @see TCountryInfo
+     */
     public List<TCountryInfo> getCountriesInfo() {
         try {
 

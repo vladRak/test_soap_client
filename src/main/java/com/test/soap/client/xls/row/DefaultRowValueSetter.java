@@ -7,10 +7,23 @@ import java.util.Calendar;
 import java.util.Date;
 import java.util.List;
 
+/**
+ * DefaultRowValueSetter class used for simplification setting row values
+ *
+ * @author vladRak
+ */
 public class DefaultRowValueSetter {
 
     private final static String ERROR_MESSAGE = "Unknown type of the parameter is found. [param: %s]";
 
+    /**
+     * Method return an List of TCountryInfo
+     *
+     * @param row        an Row object for value setting
+     * @param parameters an List of values
+     * @return Row object with set values
+     * @author vladRak
+     */
     public static Row setValues(final Row row, final List<Object> parameters)
             throws IllegalArgumentException {
         for (int i = 0; i < parameters.size(); i++) {

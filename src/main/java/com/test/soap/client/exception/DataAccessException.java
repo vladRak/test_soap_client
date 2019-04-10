@@ -5,6 +5,7 @@ package com.test.soap.client.exception;
  * and enriches them with a custom error code.
  *
  * @author vladRak
+ * @see DataAccessCode
  */
 public class DataAccessException extends Exception {
 

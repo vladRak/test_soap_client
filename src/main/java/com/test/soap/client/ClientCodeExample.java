@@ -22,6 +22,7 @@ public class ClientCodeExample {
     public static void main(String[] args) {
         try {
 
+            //Creating Excel document
             XlsData clientData = new XlsData(
                     ConfigManager.getConfig(BASE_DIR_PATH) + FILE_NAME,
                     () -> {
@@ -40,6 +41,7 @@ public class ClientCodeExample {
                     }
             );
 
+            //Storing Excel document
             DataSourceFactory
                     .getDataSource(clientData.getDataType())
                     .save(clientData);

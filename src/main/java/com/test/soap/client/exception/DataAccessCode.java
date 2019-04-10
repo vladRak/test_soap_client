@@ -1,5 +1,11 @@
 package com.test.soap.client.exception;
 
+/**
+ * DataAccessCode used for customise error code.
+ *
+ * @author vladRak
+ * @see DataAccessException
+ */
 public enum DataAccessCode {
 
     TRANSACTION_EXCEPTION(1, "Transaction exception"),

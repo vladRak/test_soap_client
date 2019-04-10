@@ -5,6 +5,12 @@ import org.apache.poi.ss.usermodel.*;
 
 import java.util.function.Consumer;
 
+/**
+ * SheetView class used for building sheet
+ *
+ * @author vladRak
+ * @see ColumnName
+ */
 public class SheetView {
 
     private final Sheet sheet;

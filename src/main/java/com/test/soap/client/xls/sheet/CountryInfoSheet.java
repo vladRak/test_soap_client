@@ -10,6 +10,12 @@ import java.util.List;
 import java.util.function.Consumer;
 import java.util.stream.IntStream;
 
+/**
+ * CountryInfoSheet class used for specific building sheet with country information
+ *
+ * @author vladRak
+ * @see SheetView
+ */
 public class CountryInfoSheet {
 
     private CountryInfoSoapHelper countryClient;
@@ -26,6 +32,13 @@ public class CountryInfoSheet {
         return countryClient;
     }
 
+    /**
+     * This method return Consumer what fill sheet rows by specific data getting from CountryInfoSoapHelper
+     *
+     * @return Consumer
+     * @author vladRak
+     * @see SheetView,CountryInfoSoapHelper
+     */
     public Consumer<Sheet> fillRows() {
         return new Consumer<Sheet>() {
             @Override

@@ -9,6 +9,11 @@ import java.util.function.Supplier;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
+/**
+ * SheetHelper class used for simplification creating sheet
+ *
+ * @author vladRak
+ */
 public class SheetHelper {
 
     private final static int HEADER_ROW_INDEX = 0;
@@ -54,7 +59,7 @@ public class SheetHelper {
         return sheet;
     }
 
-    public static Row createHeaderRow(ColumnName[] columns, Sheet sheet, CellStyle cellStyle) {
+    public static Row createHeaderRow(final ColumnName[] columns, final Sheet sheet, final CellStyle cellStyle) {
         Row headerRow = sheet.createRow(HEADER_ROW_INDEX);
 
         for (int i = 0; i < columns.length; i++) {
