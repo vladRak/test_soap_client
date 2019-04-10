@@ -7,9 +7,9 @@
         If you can expand this information with the capital, country code, currency code - only a plus.
 
    ### Links
-   - **Client code example** [here](http://https://github.com/vladRak/test_soap_client/blob/master/ "Client implementation").
-   - Country info service SOAP interface (generated) [here](http://https://github.com/vladRak/test_soap_client/blob/master/ "Country info service SOAP interface").
-   - Web service client (generated) [here](http://https://github.com/vladRak/test_soap_client/blob/master/ "WebServiceClient").
+   - **Client code example** [here](https://github.com/vladRak/test_soap_client/blob/master/src/main/java/com/test/soap/client/ClientCodeExample.java "Client implementation").
+   - Country info service SOAP interface (generated) [here](https://github.com/vladRak/test_soap_client/blob/master/src/main/java/org/oorsprong/websamples/CountryInfoServiceSoapType.java "Country info service SOAP interface").
+   - Web service client (generated) [here](https://github.com/vladRak/test_soap_client/blob/master/src/main/java/org/oorsprong/websamples/CountryInfoService.java "WebServiceClient").
 
 # SQL test task
 
@@ -28,6 +28,6 @@
                 for any month of last year. 
 
 ### Links
-- EER Diagram [here](http://https://github.com/vladRak/test_soap_client/blob/master/ "EER Diagram").
-- DB script [here](http://https://github.com/vladRak/test_soap_client/blob/master/ "DB script").
-- Queries [here](http://https://github.com/vladRak/test_soap_client/blob/master/ "Queries").
+- EER Diagram [here](https://github.com/vladRak/test_soap_client/blob/master/src/main/resources/file/eer_test_db.png "EER Diagram").
+- DB script [here](https://github.com/vladRak/test_soap_client/blob/master/src/main/resources/file/test_db.sql "DB script").
+- Queries [here](https://github.com/vladRak/test_soap_client/blob/master/src/main/resources/file/queries.sql "Queries").
